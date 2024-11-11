@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		</head>
+		<body>
+		<script type="text/javascript">
+		/*
+		* 文档 整个的HTML网页文档
+		* 对象 将网页的每一个部分都转换为对象
+		* 模型 使用模型来表示对象之间的关系，方便获取对象
+		* 
+		* 节点 构成网页的最基本组成部分
+		* 
+		* 浏览器已经为我们提供 文档节点 对象 这个对象是window属性
+		*  可以在页面中直接使用，文档节点代表的是整个网页
+		*/
+	   //console.log(document);
+	   
+	   //获取到button对象
+	   var btn=document.getElementById("btn");
+	   
+		//修改按钮的文字
+		btn.innerHTML="I'm a button";
+		
+		</script>
+		
+		<button id="btn">我是一个按钮</button>
+		
+		
+	</body>
+</html>
